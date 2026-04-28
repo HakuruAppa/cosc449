@@ -260,7 +260,6 @@ include link to bullshit bench as footnot, any  other links too
 final meeting on 9th
 
 
-TODO:
 Finish updating lit review
 Keep writing paper
 Finish analysing LLM results

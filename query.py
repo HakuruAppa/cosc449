@@ -16,7 +16,7 @@ model_list=[
 ]
 
 #list of prompt categories
-prompt_types = ["prompts.csv", "badprompts.csv", "prompts_sources.csv", "prompts_sources_bad.csv"]
+prompt_types = ["prompts.csv", "badprompts.csv"]
 
 def query_model(client, prompts, model):
   #pull model to ollama instance
@@ -50,7 +50,7 @@ def main():
     headers={'x-some-header': 'some-value'}
   )
 
-  #Manually select the model to query
+  #Uncomment below to manually select the model to query
   #model=model_list[1]
 
   #Manually select the prompt category to query
